@@ -19,7 +19,7 @@ public class HelloWorldController {
 
         HelloWorld helloWorld = new HelloWorld(myName);
 
-        logger.info("Hello: {}", helloWorld.getMyName());
+        logger.info("Hello: {} testando!!!", helloWorld.getMyName());
 
         return helloWorld;
     }
